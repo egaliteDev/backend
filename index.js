@@ -53,3 +53,18 @@
 function minMaxRange(min, max, num) {
   return Math.max(min, Math.min(max, num))
 }
+
+function randomNumber(min, max){
+  return Math.floor(Math.random() * (max - min + 1) + min)
+}
+console.log(randomNumber(1,5));
+
+/**
+ * ! Рандомное число в диапазоне min & max
+ * @param {number} min 
+ * @param {number} max 
+ */
+
+function randomNumber(min, max){
+  return Math.floor(Math.random() * (max - min + 1) + min)
+}
